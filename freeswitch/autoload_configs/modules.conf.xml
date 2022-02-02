@@ -1,0 +1,31 @@
+<configuration name="modules.conf" description="Modules">
+  <modules>
+    <load module="mod_console"/>
+    <load module="mod_logfile"/> 
+    <load module="mod_enum"/>
+    <load module="mod_event_socket"/>
+    <load module="mod_sofia"/>
+    <!-- Applications -->
+    <load module="mod_commands"/>   
+    <load module="mod_curl"/> 
+    <load module="mod_dptools"/>
+    <load module="mod_expr"/>
+    <load module="mod_fifo"/>
+    <load module="mod_hash"/>   
+    <load module="mod_esf"/>
+    <load module="mod_fsv"/>   
+    <load module="mod_httapi"/>
+    <load module="mod_dialplan_xml"/>
+    <load module="mod_spandsp"/>
+    <load module="mod_g723_1"/>
+    <load module="mod_g729"/>
+    <load module="mod_amr"/>
+    <!-- File Format Interfaces -->
+    <load module="mod_sndfile"/>
+    <load module="mod_native_file"/>
+    <!--<load module="mod_opusfile"/>-->
+    <load module="mod_local_stream"/>
+    <load module="mod_tone_stream"/>
+    <load module="mod_conference"/>
+  </modules>
+</configuration>

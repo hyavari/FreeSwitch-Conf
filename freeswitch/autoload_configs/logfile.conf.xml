@@ -1,0 +1,21 @@
+<configuration name="logfile.conf" description="File Logging">
+  <settings>
+   <!-- true to auto rotate on HUP, false to open/close -->
+   <param name="rotate-on-hup" value="true"/>
+  </settings>
+  <profiles>
+    <profile name="default">
+      <settings>
+        <!-- File to log to -->
+        <param name="logfile" value="/var/log/freeswitch/freeswitch.log"/>
+        <!-- At this length in bytes rotate the log file (0 for never) -->
+        <param name="rollover" value="0"/>              
+        <param name="maximum-rotate" value="3"/>        
+        <param name="uuid" value="true" />
+      </settings>
+      <mappings>        
+        <map name="all" value="notice,warning,err,crit,alert"/>
+      </mappings>
+    </profile>
+  </profiles>
+</configuration>
