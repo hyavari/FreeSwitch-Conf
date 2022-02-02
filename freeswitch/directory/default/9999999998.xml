@@ -1,7 +1,7 @@
 <include>
   <user id="9999999998">
     <params>
-      <param name="password" value="Telus@IMS123"/>
+      <param name="password" value="Test@IMS123"/>
       <param name="vm-password" value="1234"/>
     </params>
     <variables>
